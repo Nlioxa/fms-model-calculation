@@ -1,0 +1,81 @@
+{
+    "author": "Illia",
+    "intervals": [
+        2,
+        1,
+        2
+    ],
+    "accumulation_is_concerned": false,
+    "objective_function": {
+        "lt_coeffs": [
+            8,
+            15,
+            25
+        ],
+        "sign": ">",
+        "rt_coeff": 0,
+        "is_accumulative": false
+    },
+    "constraints": [
+        {
+            "lt_coeffs": [
+                3,
+                3.5,
+                5
+            ],
+            "sign": "<",
+            "rt_coeff": 1500,
+            "is_accumulative": false
+        },
+        {
+            "lt_coeffs": [
+                4,
+                5,
+                8
+            ],
+            "sign": "<",
+            "rt_coeff": 2000,
+            "is_accumulative": false
+        },
+        {
+            "lt_coeffs": [
+                1,
+                1.5,
+                3
+            ],
+            "sign": "<",
+            "rt_coeff": 580,
+            "is_accumulative": false
+        },
+        {
+            "lt_coeffs": [
+                1,
+                0,
+                0
+            ],
+            "sign": ">",
+            "rt_coeff": 100,
+            "is_accumulative": true
+        },
+        {
+            "lt_coeffs": [
+                0,
+                1,
+                0
+            ],
+            "sign": ">",
+            "rt_coeff": 150,
+            "is_accumulative": true
+        },
+        {
+            "lt_coeffs": [
+                0,
+                0,
+                1
+            ],
+            "sign": ">",
+            "rt_coeff": 75,
+            "is_accumulative": true
+        }
+    ]
+}
